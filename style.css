@@ -302,3 +302,36 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+
+.dishes-title{
+    font-family: "Tinos", serif;
+    font-size: 62px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 132px;
+    margin-bottom: 120px;
+}
+.dishes-title span{
+    color: #D67E34;
+    margin-left: 8px;
+}
+
+.burgers{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.burger-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 29px;
+}
+.burgers-image{
+    margin-right: 20px;
+}
+.burger-text{
+    font-family: "Tinos", serif;
+    font-size: 26px;
+    margin-left: 20px;
+}
