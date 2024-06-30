@@ -319,7 +319,7 @@ body{
 .burgers{
     display: flex;
     justify-content: center;
-    
+    margin-bottom: 100px;
 }
 
 .burger-item{
@@ -334,4 +334,91 @@ body{
     font-family: "Tinos", serif;
     font-size: 26px;
     margin-left: 20px;
+}
+
+.menu{
+    background-image: url(menu-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+.menu-title{
+    font-family: "Tinos", serif;
+    font-size: 54px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 98px;
+    color: #fff;
+    padding-bottom: 138px;
+}
+
+.menu-item{
+    background-color: #fff;
+    text-align: center;
+    width: 33%;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    margin-right: 20px;
+}
+
+.menu-text{
+    font-family: "Tinos", serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #000;
+    padding-top:16px;
+    padding-bottom:16px;
+
+}
+.menu-subtext{
+    font-size: 16px;
+}
+
+.menu-btn{
+    font-weight: 700;
+background-color: #D67E34;
+text-decoration: none;
+padding: 14px 60px;
+color: #FFF;
+box-shadow: 5px 5px 10px 0px #00000040;
+
+}
+.menu-button{
+ margin-top: 20px;   
+}
+.price-image{
+    position: absolute;
+    top: 125px;
+    left: 200px;
+}
+.menu-image{
+    position: relative;
+}
+.price-420{
+    position: absolute;
+    bottom: 40px;
+    right: 50px;
+    font-family: "Cookie", cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF;
+
+}
+.menu-items{
+    display: flex;
+    justify-content: center;
+}
+
+.recommended{
+    position: relative;
+}
+.rec-text{
+    position: absolute;
+    top: -80px;
+    left: 0px;
+    background-color: #D67E35;
+    color: #000;
+    font-size: 13px;
+    padding: 4px 8px;
 }
